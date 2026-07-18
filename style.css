@@ -477,7 +477,7 @@ footer{
 .mobile-links{
     display:flex;
     flex-direction:column;
-    padding:10px 40px 40px;
+    padding:10px 40px 20px;
 }
 
 .mobile-links a{
@@ -489,9 +489,11 @@ footer{
 }
 
 .mobile-buttons{
-    margin-top:auto;
-    padding:30px;
+    padding:25px;
     border-top:1px solid #eee;
+    display:flex;
+    flex-direction:column;
+    gap:12px;
 }
 
 .signin-btn{
