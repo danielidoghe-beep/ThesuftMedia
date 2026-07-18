@@ -391,3 +391,22 @@ footer{
     border-top:1px solid rgba(255,255,255,.1);
     color:#aaa;
 }
+.theme-btn,
+.menu-btn{
+    width:45px;
+    height:45px;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    border:none;
+    border-radius:12px;
+    background:#f4f4f4;
+    cursor:pointer;
+    transition:.3s;
+}
+
+.theme-btn:hover,
+.menu-btn:hover{
+    background:#19c37d;
+    color:#fff;
+}
